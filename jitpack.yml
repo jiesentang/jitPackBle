@@ -1,0 +1,6 @@
+jdk:
+  - openjdk17
+build:
+  - gradle :bluetooth:publishToMavenLocal  # 仅构建 module1 并发布
+install:
+  - gradle :bluetooth:publishToMavenLocal  # 确保 JitPack 识别该模块
