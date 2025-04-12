@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_remote"
+        android:icon="@mipmap/tab_bottom_remote1"
+        android:title="远程" />
+    <item
+        android:id="@+id/navigation_inspect"
+        android:icon="@mipmap/tab_bottom_inspect0"
+        android:title="巡逻" />
+    <item
+        android:id="@+id/navigation_repair"
+        android:icon="@mipmap/tab_bottom_repair0"
+        android:title="保修" />
+    <item
+        android:id="@+id/navigation_my"
+        android:icon="@mipmap/tab_bottom_my1"
+        android:title="我的" />
+</menu>

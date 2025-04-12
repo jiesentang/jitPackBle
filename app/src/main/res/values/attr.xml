@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalProgress">
+        <attr name="progress_radius" format="dimension" />
+        <attr name="progress_border_width" format="dimension" />
+        <attr name="progress_gradient_enable" format="boolean" />
+        <attr name="progress_border_enable" format="boolean" />
+        <attr name="progress_start_color" format="color" />
+        <attr name="progress_solid_color" format="color" />
+        <attr name="progress_end_color" format="color" />
+        <attr name="progress_border_color" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ColumnProgress">
+        <attr name="column_bg_color" format="color" />
+        <attr name="column_solid_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleView">
+        <attr name="title_name" format="string" />
+        <attr name="image_right" format="reference" />
+        <attr name="text_right" format="string" />
+    </declare-styleable>
+
+</resources>

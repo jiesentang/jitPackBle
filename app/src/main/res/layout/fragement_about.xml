@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@mipmap/about_bg"
+            >
+
+            <com.htkj.ruiji.view.TitleView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title_name="关于我们"
+                android:background="@color/white"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/about_bg">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="160dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/remote_logo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="35dp"
+                    android:text="瑞吉有限公司是一家以边缘智能仪器仪表研制，基于工业互联网的设备健康管理与故障自诊断系统为核心的高新技术企业。主要产品为智能温振复合传感器、手持式智能点检仪、工业级户外某站、工业捷联APP和IEM-cloud设备预测性运维平台等。
+公司为我国无线智能传感器行业领军企业;中国免布线、数字化、自诊断振动传感器开创者;中国设备在线监测与故障自诊断行业先行者。拥有自主核心知识产权超150项，通过IS09000认证、CE认证、国家防爆认证、第三方计量局检测，已服务国内外工业客户上千家，与国内外数家世界500强企业建立长期合作。
+\n\n\n\n
+公司官网:www.iisensor.com
+\n\n
+业务咨询:王经理18112605509
+\n\n
+邮箱:sales@iisensor.com\n\n"
+
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+</layout>
